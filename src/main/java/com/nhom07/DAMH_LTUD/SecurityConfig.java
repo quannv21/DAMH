@@ -50,7 +50,7 @@ public class SecurityConfig {
                         .hasAnyAuthority("ADMIN")
                         .requestMatchers("/api/**")
                         .permitAll()
-                        .anyRequest().authenticated()
+
                 )
                 .logout(logout -> logout
                         .logoutUrl("/logout")
