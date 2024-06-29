@@ -1,22 +1,25 @@
 package com.nhom07.DAMH_LTUD.controllers;
 
 import com.nhom07.DAMH_LTUD.model.User;
+import com.nhom07.DAMH_LTUD.model.UserRegistrationDto;
 import com.nhom07.DAMH_LTUD.service.UserService;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.BeanUtils;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
-import java.util.Optional;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+import java.util.UUID;
 
 @Controller
 @RequestMapping("/")
@@ -31,13 +34,14 @@ public class UserController {
 
     @GetMapping("/register")
     public String register(@NotNull Model model) {
-        model.addAttribute("user", new User()); // Thêm một đối tượng User mới vào
+        model.addAttribute("user", new UserRegistrationDto());
         return "users/register";
     }
 
     @PostMapping("/register")
-    public String register(@Valid @ModelAttribute("user") User user,
-                           @NotNull BindingResult bindingResult,
+    public String register(@Valid @ModelAttribute("user") UserRegistrationDto userDto,
+                           BindingResult bindingResult,
+                           @RequestParam("avatar") MultipartFile avatarFile,
                            Model model) {
         if (bindingResult.hasErrors()) {
             var errors = bindingResult.getAllErrors()
@@ -47,8 +51,32 @@ public class UserController {
             model.addAttribute("errors", errors);
             return "users/register";
         }
+        if (!avatarFile.isEmpty()) {
+            try {
+                String avatarName = saveImage(avatarFile);
+                userDto.setAvatar(avatarFile);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        User user = new User();
+        // Copy data from DTO to User entity
+        BeanUtils.copyProperties(userDto, user);
+        // Set avatar field in User
+        user.setAvatar(userDto.getAvatar().getOriginalFilename());
         userService.save(user);
         userService.setDefaultRole(user.getUsername());
         return "redirect:/login";
+    }
+
+    private String saveImage(MultipartFile image) throws IOException {
+        Path dirImages = Paths.get("target/classes/static/images");
+        if (!Files.exists(dirImages)) {
+            Files.createDirectories(dirImages);
+        }
+        String imageName = UUID.randomUUID().toString() + "." + image.getOriginalFilename().substring(image.getOriginalFilename().lastIndexOf(".") + 1);
+        Path pathFileUpload = dirImages.resolve(imageName);
+        Files.copy(image.getInputStream(), pathFileUpload, StandardCopyOption.REPLACE_EXISTING);
+        return imageName;
     }
 }

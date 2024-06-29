@@ -27,7 +27,7 @@ public class Product {
     private String nameProduct;
 
     @NotBlank(message = "Mô tả sản phẩm không được để trống")
-    @Size(min = 10, max = 255, message = "Mô tả sản phẩm phải từ 10 đến 255 ký tự")
+    @Size(min = 10, max = 500, message = "Mô tả sản phẩm phải từ 10 đến 255 ký tự")
     @Column(name = "description")
     private String description;
 
