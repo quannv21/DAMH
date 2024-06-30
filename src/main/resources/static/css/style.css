@@ -10874,3 +10874,133 @@ section
   font-weight: 500;
   cursor: pointer;
 }
+.payment-success {
+  background-color: #f0f9fa; /* Màu nền */
+  border: 1px solid #00ff0c; /* Viền */
+  padding: 20px; /* Khoảng cách bên trong */
+  border-radius: 5px; /* Bán kính bo tròn */
+  margin-top: 20px; /* Khoảng cách trên */
+}
+
+/*Payment Success*/
+.payment-success *{
+  text-align: center;
+
+}
+
+.payment-success h1 {
+  color: #2dc303; /* Màu chữ */
+  text-align: center; /* Căn giữa */
+}
+
+.payment-success .info {
+  display: grid; /* Sử dụng grid layout */
+  grid-template-columns: repeat(2, 1fr); /* Chia thành 2 cột */
+  gap: 10px; /* Khoảng cách giữa các hàng và cột */
+  margin-top: 20px; /* Khoảng cách trên */
+}
+
+.payment-success .info .row {
+  display: flex; /* Sử dụng flex layout */
+  text-align: center; /* Căn giữa các item */
+  margin-left: 10px;
+  /*justify-content: space-between; !* Căn giữa các item *!*/
+}
+
+.payment-success .buttons {
+  display: flex; /* Sử dụng flex layout */
+  justify-content: center; /* Căn giữa các button */
+  gap: 10px; /* Khoảng cách giữa các button */
+  margin-top: 20px; /* Khoảng cách trên */
+}
+
+.payment-success .buttons .btn {
+  padding: 10px 20px; /* Khoảng cách bên trong */
+  color: #fff; /* Màu chữ */
+  text-decoration: none; /* Loại bỏ gạch chân */
+  border-radius: 5px; /* Bán kính bo tròn */
+}
+.payment-success .tt{
+  background-color: #00B517;
+}
+
+.payment-success .lh{
+  background-color: #ea0505;
+}
+
+.gif{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+/*========================================*/
+
+/*Payment Fail*/
+.payment-fail *{
+  text-align: center;
+}
+
+
+.payment-fail{
+  border: 2px solid red; /* Thêm khung màu đỏ */
+  width: 90%;
+  max-width: 1200px; /* Giới hạn kích thước tối đa của container là 1200px */
+  margin: auto; /* Căn giữa container */
+  font-family: "Times New Roman",sans-serif;
+}
+
+.payment-fail h1 {
+  color: #cc0808; /* Màu chữ */
+  text-align: center; /* Căn giữa */
+}
+
+.payment-fail .info {
+  width: auto;
+  height: 50px;
+
+  background-color: #ece8e8; /* Màu nền */
+  display: grid; /* Sử dụng grid layout */
+  grid-template-columns: repeat(2, 1fr); /* Chia thành 2 cột */
+  gap: 10px; /* Khoảng cách giữa các hàng và cột */
+  margin-top: 20px; /* Khoảng cách trên */
+}
+
+.payment-fail .info .row {
+
+  display: flex; /* Sử dụng flex layout */
+  text-align: center; /* Căn giữa các item */
+  margin-left: 20px;
+  /*justify-content: space-between; !* Căn giữa các item *!*/
+}
+
+.payment-fail .buttons {
+  display: flex; /* Sử dụng flex layout */
+  justify-content: center; /* Căn giữa các button */
+  gap: 10px; /* Khoảng cách giữa các button */
+  margin-top: 20px; /* Khoảng cách trên */
+  margin-bottom: 20px;
+}
+
+.payment-fail .buttons .btn {
+  padding: 10px 20px; /* Khoảng cách bên trong */
+  color: #fff; /* Màu chữ */
+  text-decoration: none; /* Loại bỏ gạch chân */
+  border-radius: 5px; /* Bán kính bo tròn */
+}
+.payment-fail .tt{
+  background-color: #2dc303;
+}
+
+.payment-fail .lh{
+  background-color: #ea0505;
+}
+
+.gif{
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+/*========================================*/

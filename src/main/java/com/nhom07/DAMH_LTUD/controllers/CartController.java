@@ -14,4 +14,16 @@ public class CartController {
     public String showCheckout() {
         return "cart/checkout";
     }
+
+    @GetMapping("/paymentsuccess")
+    public String showPaymentsuccess() {
+        return "cart/paymentsuccess";
+    }
+
+
+    @GetMapping("/paymentfail")
+    public String showPaymentfail() {
+        return "cart/paymentfail";
+    }
+
 }

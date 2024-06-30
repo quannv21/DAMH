@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<th:block th:replace="~{layout::header}"></th:block>
+
+<div class="container mt-5">
+    <section layout:fragment="content">
+
+
+        <div class="container payment-success">
+            <img class="gif" src="img/gif/icegif-727.gif" alt="Payment Success">
+            <h1>Thanh toán thành công!</h1>
+            <p>Thanh toán đã thực hiện thành công.</p>
+            <p>Trong vòng 30 phút EuroShop sẽ liên hệ xác nhận thông tin giao hàng cho quý khách.</p>
+
+            <div class="info">
+                <div class="row">
+                    <div class="label">Hình thức thanh toán:</div>
+                    <div class="value">Chuyển khoản NH ACB</div>
+                </div>
+                <div class="row">
+                    <div class="label">Địa chỉ nhận hàng:</div>
+                    <div class="value">Lorem ipsum</div>
+                </div>
+                <div class="row">
+                    <div class="label">Số điện thoại:</div>
+                    <div class="value">0123456789</div>
+                </div>
+                <div class="row">
+                    <div class="label">Số tiền:</div>
+                    <div class="value">20.000.000 VND</div>
+                </div>
+                <div class="row">
+                    <div class="label">Mã giao dịch:</div>
+                    <div class="value">0123456789ABCD</div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <a href="/shop" class="btn tt">Tiếp tục mua sắm</a>
+                <a href="contact" class="btn lh">Liên hệ hỗ trợ</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<th:block th:replace="~{layout::footer}"></th:block>
+</body>
+</html>
