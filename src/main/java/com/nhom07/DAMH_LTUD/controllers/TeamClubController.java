@@ -40,7 +40,7 @@ public class TeamClubController {
     @GetMapping("/teamclubs")
     public String showListTeamClub(Model model)
     {
-        model.addAttribute("teamClubs",teamClubService.getAllTeamClubs());
+        model.addAttribute("teamClubs", teamClubService.getAllTeamClubs());
         return "/teamclubs/teamclubs-list";
     }
     @GetMapping("/teamclubs/edit/{id}")

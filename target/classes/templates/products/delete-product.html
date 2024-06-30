@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Product</title>
+</head>
+<body>
+<h1>Delete Product</h1>
+<p>Are you sure you want to delete this product?</p>
+<form action="#" th:action="@{/templates/products/delete/{id}(id=${product.id})}" method="post">
+    <img th:src="${product.imageClotheFootball}" alt="Product Image" width="100" height="100">
+    <input type="submit" value="Yes, Delete">
+</form>
+<a href="/products">No, Go Back</a>
+</body>
+</html>

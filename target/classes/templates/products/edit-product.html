@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Product</title>
+</head>
+<body>
+<h1>Edit Product</h1>
+<form action="#" th:action="@{/templates/products/update/{id}(id=${product.id})}" th:object="${product}" method="post">
+    <label for="nameProduct">Name:</label><br>
+    <input type="text" id="nameProduct" name="nameProduct" th:field="*{nameProduct}"><br>
+    <label for="description">Description:</label><br>
+    <input type="text" id="description" name="description" th:field="*{description}"><br>
+    <label for="price">Price:</label><br>
+    <input type="number" id="price" name="price" th:field="*{price}"><br>
+    <label for="quantity">Quantity:</label><br>
+    <input type="number" id="quantity" name="quantity" th:field="*{quantity}"><br>
+    <label for="imageClotheFootball">Image URL:</label><br>
+    <input type="text" id="imageClotheFootball" name="imageClotheFootball" th:field="*{'/img/' + ${product.imageClotheFootball}}"><br>
+    <input type="submit" value="Update">
+</form>
+</body>
+</html>

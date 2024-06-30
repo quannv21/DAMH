@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:sec="http://www.w3.org/1999/xhtml">
 
 <body>
 <header th:fragment="header">
@@ -143,7 +143,11 @@
                             </div>
                             <a href="/contact" class="nav-item nav-link">Liên hệ</a>
                         </div>
-                        <div class="navbar-nav ml-auto py-0">
+                        <!--Logout-->
+                        <div class="navbar-nav ml-auto py 0" sec:authorize="isAuthenticated()">
+                            <a th:href="@{/logout}" class="nav-item nav-link">Đăng xuất</a>
+                        </div>
+                        <div class="navbar-nav ml-auto py-0" sec:authorize="!isAuthenticated()">
                             <a th:href="@{/login}" class="nav-item nav-link">Đăng nhập</a>
                             <a th:href="@{/register}" class="nav-item nav-link">Đăng kí</a>
                         </div>
