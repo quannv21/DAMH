@@ -10,7 +10,7 @@
 <body>
 <th:block th:replace="~{layout::header}"></th:block>
 <section layout:fragment="content" class="container mt-5">
-    <h2>Cập nhật thương hiệu</h2>
+    <h1>Cập nhật thương hiệu</h1>
     <form th:action="@{/brands/edit/{id}(id=${brand.id})}" th:object="${brand}" method="post" class="needs-validation" enctype="multipart/form-data" novalidate>
         <div class="mb-3">
             <label for="id" class="form-label">Id:</label>
@@ -24,7 +24,7 @@
                  th:errors="*{name}"></div>
         </div>
         <button type="submit" class="btn btn-primary">Cập nhật thương hiệu</button>
-        <a th:href="@{/products}" class="btn btn-link">Hủy</a>
+        <a th:href="@{/templates/products}" class="btn btn-link">Hủy</a>
     </form>
 </section>
 <script

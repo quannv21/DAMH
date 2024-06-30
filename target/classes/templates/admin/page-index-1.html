@@ -60,9 +60,15 @@
         <span class="text">Bảng điều khiển</span>
       </a>
     </li>
-      <a class="menu-link has-submenu" href="templates/admin/page-products-list.html"> <i class="icon material-icons md-shopping_bag"></i>
-        <span class="text">Sản phẩm</span>
+      <a class="menu-link has-submenu" href="src/main/resources/admin/products/products-list.html"> <i class="icon material-icons md-shopping_bag"></i>
+          <span class="text">Sản phẩm</span>
       </a>
+      <a th:href="@{/products}" class="nav-item nav-link active">Quản lí sản phẩm</a>
+      <a th:href="@{/brands}" class="nav-item nav-link active">Quản lí brands</a>
+      <a th:href="@{/countries}" class="nav-item nav-link active">Quản lí countries</a>
+      <a th:href="@{/leagueclubs}" class="nav-item nav-link active">Quản lí leagueclubs</a>
+      <a th:href="@{/regions}" class="nav-item nav-link active">Quản lí regions</a>
+      <a th:href="@{/teamclubs}" class="nav-item nav-link active">Quản lí teamclubs</a>
     <li class="menu-item menu-item has-submenu">
       <a class="menu-link" href="page-orders-1.html"> <i class="icon material-icons md-shopping_cart"></i>
         <span class="text">Đơn hàng</span>

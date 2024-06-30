@@ -10,7 +10,7 @@
 <body>
 <th:block th:replace="~{layout::header}"></th:block>
 <section layout:fragment="content" class="container mt-5">
-    <h3>Cập nhật quốc gia</h3>
+    <h1>Cập nhật quốc gia</h1>
     <form th:action="@{/countries/edit/{id}(id=${country.id})}" th:object="${country}" method="post" class="needs-validation" enctype="multipart/form-data" novalidate>
         <div class="mb-3">
             <label for="id" class="form-label">Id:</label>

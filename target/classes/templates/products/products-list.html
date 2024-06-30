@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-size: 1.2rem; /* Adjust the font size */
+        }
+        img {
+            max-width: 200px; /* Adjust the image width */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center">Product List</h1>
+    <a href="/products/add" class="btn btn-success mb-3">Add Product</a> <!-- Move the "Add Product" button here -->
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="product : ${products}">
+            <td th:text="${product.id}"></td>
+            <td><img th:src="@{'/img/' + ${product.imageClotheFootball}}" class="img-fluid w-100" alt="Product Image"></td>
+            <td th:text="${product.nameProduct}"></td>
+            <td th:text="${product.description}"></td>
+            <td th:text="${product.price}"></td>
+            <td th:text="${product.quantity}"></td>
+            <td>
+                <a th:href="@{/templates/products/edit/{id}(id=${product.id})}" class="btn btn-primary">Edit</a>
+                <a th:href="@{/templates/products/delete/{id}(id=${product.id})}" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

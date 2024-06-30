@@ -16,6 +16,7 @@ import java.util.Optional;
 @NoArgsConstructor
 @Transactional
 public class ProductService {
+
     @Autowired
     private ProductRepository productRepository;
 
@@ -35,6 +36,7 @@ public class ProductService {
         Product productExists = productRepository.findById(product.getId())
                 .orElseThrow(() -> new IllegalStateException("Product with id: " + product.getId() + " does not exist."));
         productExists.setNameProduct(product.getNameProduct());
+        productExists.setImageClotheFootball(product.getImageClotheFootball()); // Add this line
         // Cập nhật các thuộc tính khác của Product nếu cần
         productRepository.save(productExists);
     }
