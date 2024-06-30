@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!-- Mirrored from www.ecommerce-admin.com/demo/page-index-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Dec 2021 02:38:57 GMT -->
-<head>
+<head >
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -19,23 +19,31 @@
     <!-- iconfont -->
     <link rel="stylesheet" href="admin/fonts/material-icon/css/round.css"/>
     <style>
-        body {
-            font-size: 1.2rem; /* Adjust the font size */
+        .datlichtable h1{
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
-        img {
-            max-width: 200px; /* Adjust the image width */
-            height: auto;
+        .datlichtable tr th{
+            background-color: #000000;
+            color: #ffffff;
+            border-collapse: collapse;
+            border: 1px solid #ffffff;
+            padding: 10px;
         }
-        .btn-action {
-            width: 80px; /* Set a fixed width for the buttons */
-        }
-        .table {
-            width: 100%; /* Set the width of the table */
+
+        .datlichtable tr td{
+            background-color: #ffffff;
+            color: #000000;
+            border-collapse: collapse;
+            border: 1px solid #c9cbc5;
+            padding: 10px;
+            font-size: small;
         }
     </style>
-
 </head>
 <body>
+
 <b class="screen-overlay"></b>
 <!-- * modal delete -->
 <!-- Modal -->
@@ -125,7 +133,7 @@
 </aside>
 
 <main class="main-wrap">
-    <header class="main-header navbar">
+    <header  class="main-header navbar" th:fragment ="header">
         <div class="col-search">
             <form class="searchform">
                 <div class="input-group">
@@ -161,49 +169,48 @@
         </div>
     </header>
 
+
     <section class="content-main">
-        <div class="container mt-5">
-            <h1 class="text-center">Product List</h1>
+        <div class="container datlichtable">
 
+        <h1> Danh sách liên hệ </h1>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">STT</th>
+                <th scope="col">Họ Tên</th>
+                <th scope="col">SĐT</th>
+                <th scope="col">Email</th>
+                <th scope="col">Địa Chỉ</th>
+                <th scope="col">Lời Nhắn</th>
+                <th scope="col">Ngày đặt lịch</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- Mỗi dòng trong bảng sẽ được thêm vào đây -->
+            <tr>
+                <td scope="row">1</td>
+                <td>Nguyễn Văn A</td>
+                <td>0123456789</td>
+                <td>nguyenvana@example.com</td>
+                <td>Hà Nội</td>
+                <td>Lorem ahcachacaskjncakjncjakncakjncakjncakjncakjsncakjcnakjcnakjcnakjcnaskcn</td>
+                <td>2021-12-07</td>
+            </tr>
 
-            <a href="/products/add" class="btn btn-fail mb-3"><i class="fas fa-plus"></i> Add Product</a>
-            <!--            =======Search==========-->
-            <form action="/products/search" method="get" class="mb-3">
-                <div class="input-group">
-                    <input type="text" name="q" class="form-control" placeholder="Search products...">
-                    <div class="input-group-append">
-                        <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
-                    </div>
-                </div>
-            </form>
-            <table class="table table-striped">
-                <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Image</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
-                    <th>Actions</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr th:each="product : ${products}">
-                    <td th:text="${product.id}"></td>
-                    <td><img th:src="@{'/img/' + ${product.imageClotheFootball}}" class="img-fluid w-100" alt="Product Image"></td>
-                    <td th:text="${product.nameProduct}"></td>
-                    <td th:text="${product.description}"></td>
-                    <td th:text="${product.price}"></td>
-                    <td th:text="${product.quantity}"></td>
-                    <td>
-                        <a th:href="@{/templates/products/edit/{id}(id=${product.id})}" class="btn btn-primary btn-action"><i class="fas fa-edit"></i> Edit</a>
-                        <a th:href="@{/templates/products/delete/{id}(id=${product.id})}" class="btn btn-danger btn-action"><i class="fas fa-trash"></i> Delete</a>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
+            <tr>
+                <td scope="row">1</td>
+                <td>Nguyễn Văn A</td>
+                <td>0123456789</td>
+                <td>nguyenvana@example.com</td>
+                <td>Hà Nội</td>
+                <td>Lorem ahcachacaskjncakjncjakncakjncakjncakjncakjsncakjcnakjcnakjcnakjcnaskcn</td>
+                <td>2021-12-07</td>
+            </tr>
+            <!-- Thêm các dòng khác tương tự nếu cần -->
+            </tbody>
+        </table>
+            </div>
 
     </section> <!-- content-main end// -->
 </main>

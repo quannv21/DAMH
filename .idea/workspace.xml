@@ -5,25 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98b5363a-b3a6-475b-8475-df0fe4f15832" name="Changes" comment="Fix Login">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/gif/icegif-727.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/gif/icons8-checkmark.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/cart/paymentfail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/cart/paymentsuccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/Contact_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layoutadmin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/controllers/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/controllers/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cart/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cart/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/page-index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/page-index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/brands/add-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/brands/add-brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/brands/brands-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/brands/brands-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/brands/edit-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/brands/edit-brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart/paymentfail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cart/paymentfail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart/paymentsuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cart/paymentsuccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/country/add-country.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/country/add-country.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/country/countrys-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/country/countrys-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/country/edit-country.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/country/edit-country.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/leagueclubs/add-leagueclub.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/leagueclubs/add-leagueclub.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/leagueclubs/edit-leagueclub.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/leagueclubs/edit-leagueclub.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/leagueclubs/leagueclubs-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/leagueclubs/leagueclubs-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/products/add-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/products/add-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/products/delete-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/products/delete-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/products/edit-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/products/edit-product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/products/products-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/products/products-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/cart/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/cart/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/cart/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teamclubs/teamclubs-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teamclubs/teamclubs-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/page-index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/page-index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/brands/add-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/brands/add-brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/brands/brands-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/brands/brands-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/brands/edit-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/brands/edit-brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/cart/paymentfail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/cart/paymentfail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/cart/paymentsuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/cart/paymentsuccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/country/add-country.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/country/add-country.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/country/countrys-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/country/countrys-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/country/edit-country.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/country/edit-country.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/leagueclubs/add-leagueclub.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/leagueclubs/add-leagueclub.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/leagueclubs/edit-leagueclub.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/leagueclubs/edit-leagueclub.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/leagueclubs/leagueclubs-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/leagueclubs/leagueclubs-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/products/add-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/products/add-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/products/delete-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/products/delete-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/products/edit-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/products/edit-product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/products/products-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/products/products-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/teamclubs/teamclubs-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/teamclubs/teamclubs-list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +57,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,9 +82,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.DamhLtudApplication.executor": "Run",
-    "git-widget-placeholder": "duy",
+    "git-widget-placeholder": "tien",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Documents/DoAn_JAVA/Github/DAMH/src/main/resources/static/img/gif",
+    "last_opened_file_path": "D:/Documents/DoAn_JAVA/Github/DAMH/src/main/resources/templates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,17 +93,17 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\DoAn_JAVA\Github\DAMH\src\main\resources\templates" />
       <recent name="D:\Documents\DoAn_JAVA\Github\DAMH\src\main\resources\static\img\gif" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/users" />
       <recent name="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD" />
       <recent name="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/service" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/repository" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\DAMH (1)\src\main\resources\templates" />
@@ -120,7 +144,7 @@
       <workItem from="1719682787790" duration="11000" />
       <workItem from="1719683205091" duration="301000" />
       <workItem from="1719734700021" duration="1773000" />
-      <workItem from="1719741957668" duration="8579000" />
+      <workItem from="1719741957668" duration="20251000" />
     </task>
     <task id="LOCAL-00001" summary="Fix Login">
       <option name="closed" value="true" />

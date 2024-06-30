@@ -15,4 +15,9 @@ public class AdminController {
     public String product() {
         return "admin/page-products-list";
     }
+
+    @GetMapping("/contact_list")
+    public String contact_list() {
+        return "admin/contact_list";
+    }
 }

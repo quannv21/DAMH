@@ -8,7 +8,7 @@
 <body>
 <th:block th:replace="~{layout::header}"></th:block>
 <section layout:fragment="content" class="container mt-5">
-    <h1 class="mb-4">Form Country</h1>
+    <h1 class="mb-4">Add Country</h1>
     <form th:action="@{/countries/add}" th:object="${country}" method="post">
         <div class="mb-3">
             <label for="name" class="form-label">Tên quốc gia:</label>
