@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98b5363a-b3a6-475b-8475-df0fe4f15832" name="Changes" comment="Fix Login">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/controllers/TeamClubController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/controllers/TeamClubController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU A/NHAT BAN/JP_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU A/NHAT BAN/JP_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU A/NHAT BAN/JP_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU A/NHAT BAN/JP_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU A/NHAT BAN/JP_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU A/VIET NAM/VN_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU A/VIET NAM/VN_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU A/VIET NAM/VN_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU A/VIET NAM/VN_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU A/VIET NAM/VN_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU A/VIET NAM/VN_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/ANH/ENGLAND_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/ANH/ENGLAND_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/ANH/ENGLAND_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/ANH/ENGLAND_GKM01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/ANH/ENGLAND_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/ANH/ENGLAND_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/ANH/ENGLAND_PM01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/ANH/ENGLAND_PM_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BA LAN/BL_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BA LAN/BL_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BA LAN/BL_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BA LAN/BL_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BA LAN/BL_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BI/BELGIUM_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BI/BELGIUM_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BI/BELGIUM_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BI/BELGIUM_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BI/BELGIUM_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BI/BELGIUM_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BI/BELGIUM_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BO DAO NHA/BDN_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BO DAO NHA/BDN_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BO DAO NHA/BDN_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BO DAO NHA/BDN_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BO DAO NHA/BDN_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BO DAO NHA/BDN_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/BO DAO NHA/BDN_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/CROATIA/CROATIA_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/CROATIA/CROATIA_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/CROATIA/CROATIA_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/CROATIA/CROATIA_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/CROATIA/CROATIA_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DAN MACH/DENMARK_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DAN MACH/DENMARK_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DAN MACH/DENMARK_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DAN MACH/DENMARK_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DAN MACH/DENMARK_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DAN MACH/DENMARK_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DAN MACH/DENMARK_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DUC/GERMANY_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DUC/GERMANY_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DUC/GERMANY_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DUC/GERMANY_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/DUC/GERMANY_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/HA LAN/DUTCH_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/HA LAN/DUTCH_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/HA LAN/DUTCH_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/HA LAN/DUTCH_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/HA LAN/DUTCH_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/HA LAN/DUTCH_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/HA LAN/DUTCH_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/PHAP/FRANCE_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/PHAP/FRANCE_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/PHAP/FRANCE_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/PHAP/FRANCE_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/PHAP/FRANCE_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/PHAP/FRANCE_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/TAY BAN NHA/TBN_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/TAY BAN NHA/TBN_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/TAY BAN NHA/TBN_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/TAY BAN NHA/TBN_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/TAY BAN NHA/TBN_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/TAY BAN NHA/TBN_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/TAY BAN NHA/TBN_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/THUY SY/TS_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/THUY SY/TS_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/THUY SY/TS_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/THUY SY/TS_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/THUY SY/TS_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/THUY SY/TS_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/THUY SY/TS_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/UKRAINA/UKR_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/UKRAINA/UKR_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/UKRAINA/UKR_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/Y/ITALIA_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/Y/ITALIA_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/Y/ITALIA_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/Y/ITALIA_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/Y/ITALIA_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/Y/ITALIA_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU AU/Y/ITALIA_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/ARGENTINA/ARG_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/ARGENTINA/ARG_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/ARGENTINA/ARG_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/ARGENTINA/ARG_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/ARGENTINA/ARG_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/ARGENTINA/ARG_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/ARGENTINA/ARG_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/BRAZIL/BRA_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/BRAZIL/BRA_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/BRAZIL/BRA_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/BRAZIL/BRA_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/MY/USA_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/MY/USA_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/MY/USA_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/MY/USA_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/CHAU MY/MY/USA_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/manchester_united/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/manchester_united1/img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/manchester_united1/img_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/manchester_united1/img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/manchester_united1/img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/manchester_united1/img_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/manchester_united1/img_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/manchester_united1/img_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/manchester_united1/img_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/manchester_united1/img_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/manchester_united1/img_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/page-index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/page-index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/brands/brands-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/brands/brands-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/brands/edit-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/brands/edit-brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/country/countrys-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/country/countrys-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/country/edit-country.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/country/edit-country.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teamclubs/teamclubs-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teamclubs/teamclubs-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/DamhLtudApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/DamhLtudApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/NotFoundByIdException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/NotFoundByIdException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/constants/Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/constants/Provider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/BrandController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ContactController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ContactController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/CountryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/CountryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/LeagueClubController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/LeagueClubController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ManagerNavbarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ManagerNavbarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ProductDetailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ProductDetailController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ProductSizeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ProductSizeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/RegionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/RegionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/ShopController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/TeamClubController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/TeamClubController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/TournamentCategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/TournamentCategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/TournamentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/TournamentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/LeagueClub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/LeagueClub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Region.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Region.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Role$RoleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Role$RoleBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/SizeProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/SizeProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/TeamClub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/TeamClub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Tournament.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/Tournament.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/TournamentCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/TournamentCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/UserRegistrationDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/model/UserRegistrationDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/BrandRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/BrandRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/CountryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/CountryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/IRoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/IRoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/IUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/IUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/LeagueClubRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/LeagueClubRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/RegionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/RegionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/SizeProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/SizeProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/TeamClubRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/TeamClubRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/TournamentCategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/TournamentCategoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/TournamentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/repository/TournamentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/BrandService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/CountryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/CountryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/LeagueClubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/LeagueClubService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/OAuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/OAuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/RegionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/RegionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/SizeProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/SizeProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/TeamClubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/TeamClubService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/TournamentCategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/TournamentCategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/TournamentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/TournamentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhom07/DAMH_LTUD/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU A/NHAT BAN/JP_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU A/NHAT BAN/JP_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU A/NHAT BAN/JP_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU A/NHAT BAN/JP_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU A/NHAT BAN/JP_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU A/VIET NAM/VN_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU A/VIET NAM/VN_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU A/VIET NAM/VN_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU A/VIET NAM/VN_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU A/VIET NAM/VN_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU A/VIET NAM/VN_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/ANH/ENGLAND_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/ANH/ENGLAND_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/ANH/ENGLAND_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/ANH/ENGLAND_GKM01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/ANH/ENGLAND_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/ANH/ENGLAND_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/ANH/ENGLAND_PM01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/ANH/ENGLAND_PM_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BA LAN/BL_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BA LAN/BL_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BA LAN/BL_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BA LAN/BL_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BA LAN/BL_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BI/BELGIUM_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BI/BELGIUM_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BI/BELGIUM_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BI/BELGIUM_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BI/BELGIUM_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BI/BELGIUM_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BI/BELGIUM_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BO DAO NHA/BDN_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BO DAO NHA/BDN_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BO DAO NHA/BDN_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BO DAO NHA/BDN_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BO DAO NHA/BDN_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BO DAO NHA/BDN_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/BO DAO NHA/BDN_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/CROATIA/CROATIA_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/CROATIA/CROATIA_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/CROATIA/CROATIA_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/CROATIA/CROATIA_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/CROATIA/CROATIA_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DAN MACH/DENMARK_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DAN MACH/DENMARK_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DAN MACH/DENMARK_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DAN MACH/DENMARK_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DAN MACH/DENMARK_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DAN MACH/DENMARK_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DAN MACH/DENMARK_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DUC/GERMANY_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DUC/GERMANY_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DUC/GERMANY_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DUC/GERMANY_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/DUC/GERMANY_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/HA LAN/DUTCH_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/HA LAN/DUTCH_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/HA LAN/DUTCH_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/HA LAN/DUTCH_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/HA LAN/DUTCH_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/HA LAN/DUTCH_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/HA LAN/DUTCH_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/PHAP/FRANCE_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/PHAP/FRANCE_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/PHAP/FRANCE_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/PHAP/FRANCE_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/PHAP/FRANCE_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/PHAP/FRANCE_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/TAY BAN NHA/TBN_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/TAY BAN NHA/TBN_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/TAY BAN NHA/TBN_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/TAY BAN NHA/TBN_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/TAY BAN NHA/TBN_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/TAY BAN NHA/TBN_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/TAY BAN NHA/TBN_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/THUY SY/TS_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/THUY SY/TS_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/THUY SY/TS_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/THUY SY/TS_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/THUY SY/TS_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/THUY SY/TS_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/THUY SY/TS_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/UKRAINA/UKR_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/UKRAINA/UKR_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/UKRAINA/UKR_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/Y/ITALIA_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/Y/ITALIA_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/Y/ITALIA_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/Y/ITALIA_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/Y/ITALIA_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/Y/ITALIA_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU AU/Y/ITALIA_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/ARGENTINA/ARG_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/ARGENTINA/ARG_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/ARGENTINA/ARG_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/ARGENTINA/ARG_GK02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/ARGENTINA/ARG_GK03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/ARGENTINA/ARG_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/ARGENTINA/ARG_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/BRAZIL/BRA_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/BRAZIL/BRA_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/BRAZIL/BRA_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/BRAZIL/BRA_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/MY/USA_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/MY/USA_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/MY/USA_GK01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/MY/USA_M01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/CHAU MY/MY/USA_M02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/manchester_united/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/manchester_united1/img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/manchester_united1/img_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/manchester_united1/img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/manchester_united1/img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/manchester_united1/img_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/manchester_united1/img_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/manchester_united1/img_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/manchester_united1/img_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/manchester_united1/img_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/manchester_united1/img_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/brands/brands-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/brands/brands-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/brands/edit-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/brands/edit-brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/country/countrys-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/country/countrys-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/country/edit-country.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/country/edit-country.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/teamclubs/teamclubs-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/teamclubs/teamclubs-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nhom07/DAMH_LTUD/DamhLtudApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nhom07/DAMH_LTUD/DamhLtudApplicationTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2iYpnuxCqBK3A9jrJomOJRL8IBJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DamhLtudApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;tien&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/DAMH (1)&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/users" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/service" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/repository" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD/model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\DAMH (1)\src\main\resources\templates" />
+      <recent name="C:\Users\Admin\Desktop\DAMH (1)\src\main\resources\templates\admin" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/nhom07/DAMH_LTUD" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DamhLtudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="DAMH_LTUD" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nhom07.DAMH_LTUD.DamhLtudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98b5363a-b3a6-475b-8475-df0fe4f15832" name="Changes" comment="" />
+      <created>1719677535748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719677535748</updated>
+      <workItem from="1719677538624" duration="1453000" />
+      <workItem from="1719682141523" duration="104000" />
+      <workItem from="1719682383550" duration="374000" />
+      <workItem from="1719682787790" duration="11000" />
+      <workItem from="1719683205091" duration="301000" />
+      <workItem from="1719734700021" duration="1773000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fix Login">
+      <option name="closed" value="true" />
+      <created>1719678625100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719678625100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix Login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Login" />
+  </component>
+</project>
